@@ -5,7 +5,7 @@ function submitData() {
     const input4 = document.getElementById("input4").value;
 
     // Ensure you replace this with your actual Google Apps Script deployment URL
-    const scriptURL = "https://script.google.com/macros/s/AKfycbzbBRvhI2HNALx01G6-dILRMnbucpGcMAKvX-eYh_EoAQEMnHk-JwL18gEqHS1h32GpOw/exec";
+    const scriptURL = "https://script.google.com/macros/s/AKfycbyTT_yyoQ0IikzirrZoPXiBDcNXQz1X_We7siDTCtcD/dev";
 
     fetch(scriptURL, {
         method: "POST",
